@@ -9,6 +9,6 @@
 //
 #include "sharpyuv/sharpyuv_cpu.h"
 
-// Include src/dsp/cpu.c to create SharpYuvGetCPUInfo from VP8GetCPUInfo. The
+// Include ../../src/dsp/cpu.c to create SharpYuvGetCPUInfo from VP8GetCPUInfo. The
 // function pointer is renamed in sharpyuv_cpu.h.
-#include "src/dsp/cpu.c"
+#include "../../src/dsp/cpu.c"

@@ -11,7 +11,7 @@
 //
 // Author: Skal (pascal.massimino@gmail.com)
 #ifdef HAVE_CONFIG_H
-#include "webp/config.h"
+#include "../src/webp/config.h"
 #endif
 
 #if defined(__unix__) || defined(__CYGWIN__)
@@ -37,8 +37,8 @@
 #include <qcms.h>
 #endif
 
-#include "webp/decode.h"
-#include "webp/demux.h"
+#include "../src/webp/decode.h"
+#include "../src/webp/demux.h"
 
 #include "../examples/example_util.h"
 #include "../imageio/imageio_util.h"

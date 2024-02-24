@@ -18,7 +18,7 @@
 #include <string.h>
 
 #ifdef HAVE_CONFIG_H
-#include "webp/config.h"
+#include "../src/webp/config.h"
 #endif
 
 #ifdef WEBP_HAVE_GIF
@@ -28,8 +28,8 @@
 #endif
 
 #include <gif_lib.h>
-#include "webp/encode.h"
-#include "webp/mux.h"
+#include "../src/webp/encode.h"
+#include "../src/webp/mux.h"
 #include "../examples/example_util.h"
 #include "../imageio/imageio_util.h"
 #include "./gifdec.h"

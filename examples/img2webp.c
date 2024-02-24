@@ -20,7 +20,7 @@
 #include <string.h>
 
 #ifdef HAVE_CONFIG_H
-#include "webp/config.h"
+#include "../src/webp/config.h"
 #endif
 
 #include "../examples/example_util.h"
@@ -29,8 +29,8 @@
 #include "./stopwatch.h"
 #include "./unicode.h"
 #include "sharpyuv/sharpyuv.h"
-#include "webp/encode.h"
-#include "webp/mux.h"
+#include "../src/webp/encode.h"
+#include "../src/webp/mux.h"
 
 //------------------------------------------------------------------------------
 

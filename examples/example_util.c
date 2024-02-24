@@ -17,7 +17,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "webp/mux_types.h"
+#include "../src/webp/mux_types.h"
 #include "../imageio/imageio_util.h"
 
 //------------------------------------------------------------------------------

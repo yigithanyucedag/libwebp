@@ -19,9 +19,9 @@
 #if defined(WEBP_HAVE_GIF)
 #include <gif_lib.h>
 #endif
-#include "webp/format_constants.h"
-#include "webp/decode.h"
-#include "webp/demux.h"
+#include "../src/webp/format_constants.h"
+#include "../src/webp/decode.h"
+#include "../src/webp/demux.h"
 #include "../imageio/imageio_util.h"
 #include "./gifdec.h"
 #include "./unicode.h"

@@ -18,8 +18,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "webp/encode.h"
-#include "webp/mux_types.h"
+#include "../src/webp/encode.h"
+#include "../src/webp/mux_types.h"
 
 #define GIF_TRANSPARENT_COLOR 0x00000000u
 #define GIF_WHITE_COLOR       0xffffffffu

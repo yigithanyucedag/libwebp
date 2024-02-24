@@ -17,7 +17,7 @@
 
 #if defined(WEBP_HAVE_SDL)
 
-#include "webp_to_sdl.h"
+#include "../src/webp_to_sdl.h"
 
 #include <stdio.h>
 

@@ -12,7 +12,7 @@
 #include "./wicdec.h"
 
 #ifdef HAVE_CONFIG_H
-#include "webp/config.h"
+#include "../src/webp/config.h"
 #endif
 
 #include <assert.h>
@@ -36,7 +36,7 @@
 #include "../examples/unicode.h"
 #include "./imageio_util.h"
 #include "./metadata.h"
-#include "webp/encode.h"
+#include "../src/webp/encode.h"
 
 #define IFS(fn)                                                     \
   do {                                                              \

@@ -16,14 +16,14 @@
 #include <stdio.h>
 
 #ifdef HAVE_CONFIG_H
-#include "webp/config.h"
+#include "../src/webp/config.h"
 #endif
 
 #include "../imageio/imageio_util.h"
 #include "./unicode.h"
-#include "webp/decode.h"
-#include "webp/format_constants.h"
-#include "webp/mux_types.h"
+#include "../src/webp/decode.h"
+#include "../src/webp/format_constants.h"
+#include "../src/webp/mux_types.h"
 
 #if defined(_MSC_VER) && _MSC_VER < 1900
 #define snprintf _snprintf

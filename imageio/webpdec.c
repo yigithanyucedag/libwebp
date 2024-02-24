@@ -10,7 +10,7 @@
 // WebP decode.
 
 #ifdef HAVE_CONFIG_H
-#include "webp/config.h"
+#include "../src/webp/config.h"
 #endif
 
 #include "./webpdec.h"
@@ -19,9 +19,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "webp/decode.h"
-#include "webp/demux.h"
-#include "webp/encode.h"
+#include "../src/webp/decode.h"
+#include "../src/webp/demux.h"
+#include "../src/webp/encode.h"
 #include "../examples/unicode.h"
 #include "./imageio_util.h"
 #include "./metadata.h"

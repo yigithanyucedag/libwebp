@@ -52,15 +52,15 @@
 */
 
 #ifdef HAVE_CONFIG_H
-#include "webp/config.h"
+#include "../src/webp/config.h"
 #endif
 
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "webp/decode.h"
-#include "webp/mux.h"
+#include "../src/webp/decode.h"
+#include "../src/webp/mux.h"
 #include "../examples/example_util.h"
 #include "../imageio/imageio_util.h"
 #include "./unicode.h"

@@ -13,8 +13,8 @@
 #ifndef WEBP_EXAMPLES_EXAMPLE_UTIL_H_
 #define WEBP_EXAMPLES_EXAMPLE_UTIL_H_
 
-#include "webp/types.h"
-#include "webp/mux_types.h"
+#include "../src/webp/types.h"
+#include "../src/webp/mux_types.h"
 
 #ifdef __cplusplus
 extern "C" {

@@ -11,14 +11,14 @@
 #ifndef WEBP_EXTRAS_EXTRAS_H_
 #define WEBP_EXTRAS_EXTRAS_H_
 
-#include "webp/types.h"
+#include "../src/webp/types.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 #include "sharpyuv/sharpyuv.h"
-#include "webp/encode.h"
+#include "../src/webp/encode.h"
 
 #define WEBP_EXTRAS_ABI_VERSION 0x0003    // MAJOR(8b) + MINOR(8b)
 

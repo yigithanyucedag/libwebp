@@ -14,7 +14,7 @@
 #ifndef WEBP_EXAMPLES_STOPWATCH_H_
 #define WEBP_EXAMPLES_STOPWATCH_H_
 
-#include "webp/types.h"
+#include "../src/webp/types.h"
 
 #if defined _WIN32 && !defined __GNUC__
 #include <windows.h>
